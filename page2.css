@@ -1,0 +1,188 @@
+.main
+{
+          text-align: center;
+          width: 1200px;
+          height: 1000px;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: auto;
+          margin-bottom: auto;
+          font-family: 'Dosis', sans-serif;
+}
+
+.box1
+{
+          margin-top: 120px;
+}
+
+.box2
+{
+          margin-top: 50px;
+          width: 50%;
+          height: 500px;
+          margin-left: 300px;
+          text-align: center;
+          border:1px solid red;
+          border-radius: 20px;
+          box-shadow: 10px 10px 20px silver;
+          display: flex;
+          flex-direction: column;
+          justify-content: stretch;
+}
+
+h1
+{
+          font-size: 100px;
+          margin-bottom: 20px;
+          font-weight: 500;
+          
+}
+
+hr
+{
+          border: 1px solid silver;
+          width: 50%;
+          margin-right: 0px;
+}
+
+
+.b1
+{
+          display: inline-block;
+          color:red
+          
+}
+
+h2
+{
+          display: inline-block;
+          margin-left: 20px;
+          margin-bottom: 0px;
+}
+
+.b2
+{
+          align-self: flex-end;
+          margin-right: 15px;
+          color:red;
+
+}
+.input
+{
+          margin-bottom: 240px;
+          margin-top: 20px;
+          align-self: flex-start;
+          margin-left: 20px;
+}
+
+.box2 a
+{
+          width: 50px;
+          /* align-self: flex-end; */
+          margin-right: 20px;
+          padding-bottom: 0px;
+          /* border: 2px solid; */
+          margin-left: 531px;
+          margin-top: 21px;
+}
+
+.fas
+{
+          margin-top: 0px;
+}
+
+
+@media (min-width:320px) and (max-width:480px)
+{
+          .main
+          {
+                    display:flex;
+                    flex-direction: column;
+                    width:100%;
+
+          }
+
+          .box1
+          {
+                    margin: 0;
+                    position: relative;
+                    height: 10%;
+          }
+
+          .box1 h1
+          {
+                    position: absolute;
+                    font-size: 38px;
+                    right: 7%;
+          }
+
+          .box1 a
+          {
+                    position: absolute;
+                    left: 0%;
+                    top: 25%;
+          }
+
+          .box1 h2
+          {
+                    display: none;
+          }
+
+          .box2
+          {
+                    width: 75%;
+                    margin: 0 auto;
+                    height: 366px;
+                    position: relative;
+          }
+
+          .box2 h3
+          {
+                    position: absolute;
+                    left: 22%;
+                    top: 3%;
+                    margin: 0;
+                    color: red;
+                    font-weight: 100;
+          }
+
+          hr
+          {
+                    position: absolute;
+                    right: 0%;
+                    top: 14%;
+          }
+
+          .input
+          {
+                    margin: 0;
+                    position: absolute;
+                    top: 21%;
+                    left: 9%;
+                    font-size: 22px;
+          }
+
+          input
+          {
+                    margin-right: 14px;
+          }
+
+          .box2 a
+          {
+                    margin: 0;
+                    position: absolute;
+                    bottom: 2%;
+                    right: 2%;
+                    width: 37px;
+          }
+
+          .b2
+          {
+                    margin-right: 0px;
+          }
+
+          .fas
+          {
+                    font-size: 1.5em;
+          }
+}
